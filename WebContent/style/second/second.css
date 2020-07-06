@@ -1,0 +1,110 @@
+body {
+	background-image: url(background.jpg);
+	text-align: center;
+	background-size: 100%;
+	font-family: Courier New;
+	font-size: 14px;
+	background-attachment: fixed;
+}
+
+.button {
+  	text-decoration: none;
+  	outline: none;
+  	display: inline-block;
+  	width: 140px;
+  	height: 45px;
+  	line-height: 45px;
+  	border-radius: 45px;
+  	margin: 30px 20px;
+  	font-size: 15px;
+  	text-transform: uppercase;
+  	text-align: center;
+  	letter-spacing: 3px;
+  	font-weight: 600;
+  	color: #484555;
+  	background: #ffffff;
+ 	box-shadow: 0 8px 15px rgba(0,0,0,.1);
+ 	transition: .3s;
+}
+.button:hover {
+ 	background: #484555;
+ 	text-align: center;
+ 	box-shadow: 0 15px 20px rgba(0,0,0,.4);
+  	color: #ffffff;
+ 	transform: translateY(-7px);
+}
+
+.heading {
+	background: #484555;
+  	text-align: center;
+  	font-family: Courier New;
+  	border : 1px solid #888;
+  	color: #ffffff;
+  	font-size: 2.5em;
+ 	font-weight: normal;
+ 	padding: 10px 20px;
+ 	display: block;
+ 	margin: 0px 30px;
+ 	line-height: 2;
+	border-radius: 45px;
+}
+
+.txt {
+	margin: 15px auto;
+	padding: 10px;
+	width: 45%;
+	height: 45%;
+	border : 1px solid #888;
+	background: #484555;
+	color: #ffffff;
+	outline:none;
+	resize: none;
+	border-radius: 25px;
+}
+
+.txt2 {
+	
+	width: 10%;
+	height: 10%;
+	margin: 10px auto;
+	padding: 10px;
+	border : 1px solid #888;
+	background: #484555;
+	color: #ffffff;
+	outline:none;
+	resize: none;
+	border-radius: 25px;
+}
+
+.textBox{
+	background: #ffffff;
+	color: #484555;
+	border: 1px solid #ccc; 
+   	width: 75%;
+    	outline:none;
+    	resize: none;
+}
+
+input {
+	outline:none;
+}
+   
+.fontForText{
+	color: #ffffff;
+}
+
+.changeThemeButton{
+  	display: block;
+  	width: 1.5em;
+  	margin: auto;
+  	height: 1.5em;
+  	vertical-align: middle;
+  	text-decoration: none;
+  	border: .5em solid rgba(0,0,0,.1);
+  	border-radius: 100%;
+  	background: rgba(72,70,72,.4) linear-gradient(rgba(72,70,72,.4), rgb(130, 120, 130)) 50% 50% / calc(1.5em + .5em*2) calc(1.5em + .5em*2);
+  	box-shadow:
+   	inset 0 -3px 10px rgba(72,70,72,.4),
+   	inset 0 3px 10px rgba(0, 0, 0,.4),
+   	0 2px 4px rgba(0,0,0,.9);
+}
