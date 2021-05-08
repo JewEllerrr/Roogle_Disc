@@ -1,2 +1,2 @@
 # Roogle_Disc
-Система для обмена файлами через веб.
+Web sharing file system. (servlets only)
